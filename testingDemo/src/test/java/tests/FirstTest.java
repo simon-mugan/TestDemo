@@ -23,7 +23,7 @@ public class FirstTest {
   public void f() {
 	  System.out.println("Click Sports link");
 	  driver.findElement(By.xpath("//span[contains(.,'Sport')]")).click();
-	  try {Thread.sleep(5000);} catch (Exception e) {};
+	  try {Thread.sleep(10000);} catch (Exception e) {};
 	  showArticles("Paragraph");
 	  System.out.println("Click Home link");
 	  driver.findElement(By.xpath("//span[contains(@class,'LogoIconWrapper')]")).click();
